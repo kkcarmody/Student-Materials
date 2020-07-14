@@ -11,7 +11,7 @@ def prob1(L):
     """Return the minimum, maximum, and average of the entries of L
     (in that order).
     """
-    raise NotImplementedError("Problem 1 Incomplete")
+    return min(L), max(L), sum(L)/len(L)
 
 
 # Problem 2
@@ -19,7 +19,7 @@ def prob2():
     """Determine which Python objects are mutable and which are immutable.
     Test numbers, strings, lists, tuples, and sets. Print your results.
     """
-    raise NotImplementedError("Problem 2 Incomplete")
+    return('all are mutable except tuples')
 
 
 # Problem 3
